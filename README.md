@@ -11,7 +11,7 @@ The source code of MIE is in `MedicalImageEnhancement.py`
 <b>Table 1</b> shows the comparison of the three filters including smoothing, sharpening, edge detection in the aspects of kernel, experiment demo and time cost of running. The way of achieving filter is to use kernel to perform convolution operation on 3D images.
 
 <div align=center>
-    <b>Table 1: Comparison of different filters</b>
+    <b>Table 1: Comparison of different filters</b><br>
     <img width="455" src=".github/t1.PNG"/>
 </div>
 
@@ -23,14 +23,14 @@ The source code of MIS is in `MedicalImageSegmentation.py`
 multiple viewing angles.
 
 <div align=center>
-    <b>Figure 1: 3D segmentation result of the tumor</b>
+    <b>Figure 1: 3D segmentation result of the tumor</b><br>
     <img width="100%" src=".github/f1.png"/>
 </div>
 
 <b>Table 2</b> shows the demonstration of the experiments on different global and local parameters combinations. 
 
 <div align=center>
-    <b>Table 2: Part experiments on different global and local parameters</b>
+    <b>Table 2: Part experiments on different global and local parameters</b><br>
     <img width="455" src=".github/t2.PNG"/>
 </div>
 
