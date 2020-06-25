@@ -2,7 +2,6 @@
 Medical Image Computing Module Development
 
 [![license](https://img.shields.io/github/license/george-chou/MIC.svg)](https://github.com/george-chou/MIC/blob/master/LICENSE)
-
 [![Python application](https://github.com/george-chou/MIC/workflows/Python%20application/badge.svg)](https://github.com/george-chou/MIC/actions)
 
 ## Medical Image Enhancement (MIE) ##
@@ -25,7 +24,7 @@ multiple viewing angles.
 
 <div align=center>
     <b>Figure 1: 3D segmentation result of the tumor</b>
-    <img width="605" src=".github/f1.PNG"/>
+    <img width="605" src=".github/f1.png"/>
 </div>
 
 `Table 2` shows the demonstration of the experiments on different global and local parameters combinations. 
