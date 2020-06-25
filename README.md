@@ -3,6 +3,7 @@ Medical Image Computing Module Development
 
 [![license](https://img.shields.io/github/license/george-chou/MIC.svg)](https://github.com/george-chou/MIC/blob/master/LICENSE)
 [![Python application](https://github.com/george-chou/MIC/workflows/Python%20application/badge.svg)](https://github.com/george-chou/MIC/actions)
+[![Github All Releases](https://img.shields.io/github/downloads-pre/george-chou/MIC/v1.1/total)](https://github.com/george-chou/MIC/releases)
 
 ## Medical Image Enhancement (MIE) ##
 
