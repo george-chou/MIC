@@ -258,7 +258,7 @@ class MedicalImageSegmentationWidget:
       def callback(*args):
         currentLocals = scopeLocals.copy()
         currentLocals.update({'args':args})
-        exec cmd in globals(), currentLocals
+        exec(cmd, globals(), currentLocals)
         updateGUI()
       obj.connect(evt, callback)
 
@@ -341,7 +341,7 @@ class MedicalImageSegmentationWidget:
     globals()[moduleName] = imp.load_module(
         moduleName, fp, fPath, ('.py', 'r', imp.PY_SOURCE))
     fp.close()
-    print "the module name to be reloaded,", moduleName
+    print("the module name to be reloaded,", moduleName)
     # find the Button with a name 'moduleName Reolad', then find its parent (e.g., a collasp button) and grand parent (moduleNameWidget)
     parent = slicer.util.findChildren(name = '%s Reload' % moduleName)[0].parent().parent()
     for child in parent.children():

@@ -25,7 +25,7 @@ def convolution3D(inputData, filter_name):
   # Stage 1: Kernel Definition
   # Define your 3x3x3 kernel.
   if filter_name== "Smoothing":
-    print "INFO: Applying a smoothing filter ..."
+    print("INFO: Applying a smoothing filter ...")
     # Tutors have already implemented this filter for you.
     kernel = np.ones([3, 3, 3])
     kernel = kernel / kernel.sum()
@@ -41,7 +41,7 @@ def convolution3D(inputData, filter_name):
     print("Time cost: " + str((datetime.now() - dt).seconds) + "s")		
 
   elif filter_name == "Sharpening":
-    print "INFO: Applying a sharpening filter ..."
+    print("INFO: Applying a sharpening filter ...")
     # You need to implement 3x3x3 sharpening filter by yourself
     kernel = -np.ones([3, 3, 3])
     kernel[0][1][1] = 9
@@ -59,7 +59,7 @@ def convolution3D(inputData, filter_name):
     print("Time cost: " + str((datetime.now() - dt).seconds) + "s")		
 
   elif filter_name == "Edge":
-    print "INFO: Applying an edge detection filter ..."
+    print("INFO: Applying an edge detection filter ...")
     # You need to implement 3x3x3 edge detection filter by yourself
     kernel = np.zeros([3, 3, 3])
     kernel[0] = np.array([[1, 0, -1], [1, 0, -1], [1, 0, -1]])
@@ -259,7 +259,7 @@ class MedicalImageEnhancementWidget:
         moduleName, fp, fPath, ('.py', 'r', imp.PY_SOURCE))
     fp.close()
 
-    print "the module name to be reloaded,", moduleName
+    print("the module name to be reloaded,", moduleName)
     # find the Button with a name 'moduleName Reolad', then find its parent (e.g., a collasp button) and grand parent (moduleNameWidget)
     parent = slicer.util.findChildren(name = '%s Reload' % moduleName)[0].parent().parent()
     for child in parent.children():
@@ -279,6 +279,6 @@ class MedicalImageEnhancementWidget:
 
   # Clear the Python Interacter Screen 
   def onClearScreen(self):
-    print "\n" * 50
+    print("\n" * 50)
 
 
