@@ -12,7 +12,7 @@ def offset(arrays, output = None):
     output[:,0] = np.repeat(arrays[0], m)    
     if arrays[1:]:
         offset(arrays[1:], output = output[0:m, 1:])
-        for j in xrange(1, arrays[0].size):
+        for j in range(1, arrays[0].size):
             output[j*m:(j+1)*m, 1:] = output[0:m, 1:]    
     return output
 
