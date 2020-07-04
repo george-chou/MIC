@@ -13,7 +13,7 @@ _Table 1_ compares the three filters, including smoothing, sharpening, edge dete
 
 <div align=center>
     <b>Table 1: Comparison of different filters</b><br>
-    <img width="455" src=".github/t1.PNG"/>
+    <img width="455" src="https://george-chou.github.io/covers/MIC/t1.PNG"/>
 </div>
 
 ## Medical Image Segmentation (MIS) ##
@@ -24,14 +24,14 @@ _Figure 1_ shows the demonstration of 3D segmentation results achieved using thr
 
 <div align=center>
     <b>Figure 1: 3D segmentation result of the tumor</b><br>
-    <img width="100%" src=".github/f1.png"/>
+    <img width="100%" src="https://george-chou.github.io/covers/MIC/f1.png"/>
 </div>
 
 _Table 2_ shows the demonstration of the experiments on different global and local parameter combinations. 
 
 <div align=center>
     <b>Table 2: Part experiments on different global and local parameters</b><br>
-    <img width="455" src=".github/t2.PNG"/>
+    <img width="455" src="https://george-chou.github.io/covers/MIC/t2.PNG"/>
 </div>
 
 Based on experiment results, the best global and local parameters are among experiments with ID from 2 to 3 considering whether the classification is true or false, positive or negative. The best way to find them is to define an indicator of the best result, then define a distance between the result indicator in current parameters and the best outcome, and finally search for the settings of minimum distance by deep learning. In that way, we do not need to search for the best parameters manually. 
