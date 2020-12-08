@@ -22,9 +22,9 @@ The source code of MIS is in _MedicalImageSegmentation.py_.
 
 _Figure 1_ shows the demonstration of 3D segmentation results achieved using three multiple viewing angles.
 
-<div align=center>
-    <b>Figure 1: 3D segmentation result of the tumor</b><br>
-    <img width="100%" src="https://george-chou.github.io/covers/MIC/f1.png"/>
+<div align=center>    
+    <img width="100%" src="https://george-chou.github.io/covers/MIC/f1.png"/><br>
+    <b>Figure 1: 3D segmentation result of the tumor</b>
 </div>
 
 _Table 2_ shows the demonstration of the experiments on different global and local parameter combinations. 
